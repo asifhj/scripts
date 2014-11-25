@@ -13,7 +13,7 @@ print "\nConnected to DB"
 t0 = time.time()
 print "\nExecution start time: ", time.asctime()
 print "Epoch start time: ", t0
-'''
+
 con='';
 
 try:
@@ -93,7 +93,7 @@ finally:
 	if con:    
 		con.close()
 		print "\nDB disconnected."
-'''
+
 
 with open('blacklisted_ips_match_count.csv', 'rb') as fr:
     reader = csv.reader(fr)
